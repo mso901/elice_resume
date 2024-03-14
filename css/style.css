@@ -1,0 +1,54 @@
+/** @format */
+
+.flex {
+  display: flex;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+/*header*/
+header {
+  background-color: grey;
+}
+header li {
+  padding: 15px;
+  list-style: none;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  transition: letter-spacing 0.5s linear;
+}
+header a:hover {
+  letter-spacing: 4px;
+  background-color: darkgray;
+}
+/*main*/
+main {
+  padding: 32px;
+}
+h1 {
+  font-size: 48px;
+}
+article p {
+  width: 320px;
+  height: 320px;
+  overflow: hidden;
+}
+article p img {
+  transition: all 0.5s linear;
+}
+article p img:hover {
+  transform: scale(1.2);
+}
+main #detail {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+/*footer*/
+footer{
+  padding: 40px;
+  background-color: lightgray;
+}
